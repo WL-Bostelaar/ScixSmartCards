@@ -11,6 +11,49 @@
 		0FB1C11C2C4B391200C19490 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C11B2C4B391200C19490 /* ContentView.swift */; };
 		0FB1C11E2C4B391400C19490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB1C11D2C4B391400C19490 /* Assets.xcassets */; };
 		0FB1C1222C4B391400C19490 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB1C1212C4B391400C19490 /* Preview Assets.xcassets */; };
+		0FB1C1312C4B3A5C00C19490 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1302C4B3A5C00C19490 /* CardModel.swift */; };
+		0FB1C1332C4B3A7500C19490 /* DeckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1322C4B3A7400C19490 /* DeckModel.swift */; };
+		0FB1C1352C4B3A9700C19490 /* CardStatisticsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1342C4B3A9700C19490 /* CardStatisticsModel.swift */; };
+		0FB1C1382C4B3AB200C19490 /* DeckStatisticsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1372C4B3AB200C19490 /* DeckStatisticsModel.swift */; };
+		0FB1C13A2C4B3AD100C19490 /* PlaythroughStatsisticsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1392C4B3AD100C19490 /* PlaythroughStatsisticsModel.swift */; };
+		0FB1C13D2C4B3B0F00C19490 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C13C2C4B3B0F00C19490 /* SettingsView.swift */; };
+		0FB1C13F2C4B3B3900C19490 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C13E2C4B3B3900C19490 /* SideBarView.swift */; };
+		0FB1C1412C4B3B7500C19490 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1402C4B3B7500C19490 /* OnboardingView.swift */; };
+		0FB1C1432C4B3BA300C19490 /* OnboardingWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1422C4B3BA300C19490 /* OnboardingWelcome.swift */; };
+		0FB1C1452C4B3BC500C19490 /* OnboardingDecks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1442C4B3BC500C19490 /* OnboardingDecks.swift */; };
+		0FB1C1472C4B3BF800C19490 /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1462C4B3BF800C19490 /* DeckView.swift */; };
+		0FB1C1492C4B3C0800C19490 /* DeckTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1482C4B3C0800C19490 /* DeckTileView.swift */; };
+		0FB1C14B2C4B3C3D00C19490 /* EditDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C14A2C4B3C3D00C19490 /* EditDeckView.swift */; };
+		0FB1C14D2C4B3C5000C19490 /* AddDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C14C2C4B3C5000C19490 /* AddDeckView.swift */; };
+		0FB1C14F2C4B3C7D00C19490 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C14E2C4B3C7D00C19490 /* CardListView.swift */; };
+		0FB1C1512C4B3CB800C19490 /* CardCollapsedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1502C4B3CB800C19490 /* CardCollapsedView.swift */; };
+		0FB1C1532C4B3CCA00C19490 /* CardExpandedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1522C4B3CCA00C19490 /* CardExpandedView.swift */; };
+		0FB1C1552C4B3CF200C19490 /* AddCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1542C4B3CF200C19490 /* AddCardView.swift */; };
+		0FB1C1572C4B3D0000C19490 /* AddAICardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1562C4B3D0000C19490 /* AddAICardView.swift */; };
+		0FB1C1592C4B3D5100C19490 /* CardTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1582C4B3D5100C19490 /* CardTileView.swift */; };
+		0FB1C15B2C4B3D6400C19490 /* EditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C15A2C4B3D6400C19490 /* EditCardView.swift */; };
+		0FB1C15D2C4B3E4900C19490 /* CalculateDeckStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C15C2C4B3E4900C19490 /* CalculateDeckStatistics.swift */; };
+		0FB1C15F2C4B3E6700C19490 /* CalculateLearnFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C15E2C4B3E6700C19490 /* CalculateLearnFactor.swift */; };
+		0FB1C1612C4B3E8800C19490 /* Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1602C4B3E8800C19490 /* Export.swift */; };
+		0FB1C1632C4B3EA300C19490 /* UTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1622C4B3EA300C19490 /* UTType.swift */; };
+		0FB1C1652C4B3EBA00C19490 /* DeckLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1642C4B3EBA00C19490 /* DeckLoading.swift */; };
+		0FB1C1672C4B3F2B00C19490 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1662C4B3F2B00C19490 /* FlowLayout.swift */; };
+		0FB1C1692C4B3F4D00C19490 /* GameEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1682C4B3F4D00C19490 /* GameEntryView.swift */; };
+		0FB1C16B2C4B3F6700C19490 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C16A2C4B3F6700C19490 /* GameView.swift */; };
+		0FB1C16D2C4B3F7B00C19490 /* GameDeckTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C16C2C4B3F7B00C19490 /* GameDeckTileView.swift */; };
+		0FB1C16F2C4B3F9600C19490 /* GameCategoryTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C16E2C4B3F9600C19490 /* GameCategoryTileView.swift */; };
+		0FB1C1712C4B3FA500C19490 /* QnAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1702C4B3FA500C19490 /* QnAView.swift */; };
+		0FB1C1732C4B3FB900C19490 /* MultipleChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1722C4B3FB900C19490 /* MultipleChoiceView.swift */; };
+		0FB1C1752C4B3FD100C19490 /* ReciteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1742C4B3FD100C19490 /* ReciteView.swift */; };
+		0FB1C1772C4B3FEA00C19490 /* EndCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1762C4B3FEA00C19490 /* EndCardView.swift */; };
+		0FB1C17A2C4B659F00C19490 /* CardGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1792C4B659F00C19490 /* CardGenerator.swift */; };
+		0FB1C17D2C4B65ED00C19490 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C17C2C4B65EC00C19490 /* StatsView.swift */; };
+		0FB1C17F2C4B660E00C19490 /* OverviewChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C17E2C4B660E00C19490 /* OverviewChart.swift */; };
+		0FB1C1812C4B662000C19490 /* StatDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1802C4B662000C19490 /* StatDeckView.swift */; };
+		0FB1C1832C4B664700C19490 /* StatDeckTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1822C4B664700C19490 /* StatDeckTileView.swift */; };
+		0FB1C1852C4B665D00C19490 /* TimeKeeperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1842C4B665D00C19490 /* TimeKeeperView.swift */; };
+		0FB1C1872C4B667200C19490 /* CorrectAnswerAVGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1862C4B667200C19490 /* CorrectAnswerAVGView.swift */; };
+		0FB1C1892C4B66C900C19490 /* CustomGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1C1882C4B66C900C19490 /* CustomGauge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +63,50 @@
 		0FB1C11D2C4B391400C19490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FB1C11F2C4B391400C19490 /* ScixSmartCards.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScixSmartCards.entitlements; sourceTree = "<group>"; };
 		0FB1C1212C4B391400C19490 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FB1C1302C4B3A5C00C19490 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		0FB1C1322C4B3A7400C19490 /* DeckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckModel.swift; sourceTree = "<group>"; };
+		0FB1C1342C4B3A9700C19490 /* CardStatisticsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStatisticsModel.swift; sourceTree = "<group>"; };
+		0FB1C1372C4B3AB200C19490 /* DeckStatisticsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckStatisticsModel.swift; sourceTree = "<group>"; };
+		0FB1C1392C4B3AD100C19490 /* PlaythroughStatsisticsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaythroughStatsisticsModel.swift; sourceTree = "<group>"; };
+		0FB1C13C2C4B3B0F00C19490 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0FB1C13E2C4B3B3900C19490 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		0FB1C1402C4B3B7500C19490 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0FB1C1422C4B3BA300C19490 /* OnboardingWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingWelcome.swift; sourceTree = "<group>"; };
+		0FB1C1442C4B3BC500C19490 /* OnboardingDecks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingDecks.swift; sourceTree = "<group>"; };
+		0FB1C1462C4B3BF800C19490 /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
+		0FB1C1482C4B3C0800C19490 /* DeckTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckTileView.swift; sourceTree = "<group>"; };
+		0FB1C14A2C4B3C3D00C19490 /* EditDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDeckView.swift; sourceTree = "<group>"; };
+		0FB1C14C2C4B3C5000C19490 /* AddDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeckView.swift; sourceTree = "<group>"; };
+		0FB1C14E2C4B3C7D00C19490 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		0FB1C1502C4B3CB800C19490 /* CardCollapsedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollapsedView.swift; sourceTree = "<group>"; };
+		0FB1C1522C4B3CCA00C19490 /* CardExpandedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardExpandedView.swift; sourceTree = "<group>"; };
+		0FB1C1542C4B3CF200C19490 /* AddCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardView.swift; sourceTree = "<group>"; };
+		0FB1C1562C4B3D0000C19490 /* AddAICardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAICardView.swift; sourceTree = "<group>"; };
+		0FB1C1582C4B3D5100C19490 /* CardTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTileView.swift; sourceTree = "<group>"; };
+		0FB1C15A2C4B3D6400C19490 /* EditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardView.swift; sourceTree = "<group>"; };
+		0FB1C15C2C4B3E4900C19490 /* CalculateDeckStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateDeckStatistics.swift; sourceTree = "<group>"; };
+		0FB1C15E2C4B3E6700C19490 /* CalculateLearnFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateLearnFactor.swift; sourceTree = "<group>"; };
+		0FB1C1602C4B3E8800C19490 /* Export.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Export.swift; sourceTree = "<group>"; };
+		0FB1C1622C4B3EA300C19490 /* UTType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTType.swift; sourceTree = "<group>"; };
+		0FB1C1642C4B3EBA00C19490 /* DeckLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckLoading.swift; sourceTree = "<group>"; };
+		0FB1C1662C4B3F2B00C19490 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		0FB1C1682C4B3F4D00C19490 /* GameEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEntryView.swift; sourceTree = "<group>"; };
+		0FB1C16A2C4B3F6700C19490 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		0FB1C16C2C4B3F7B00C19490 /* GameDeckTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDeckTileView.swift; sourceTree = "<group>"; };
+		0FB1C16E2C4B3F9600C19490 /* GameCategoryTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCategoryTileView.swift; sourceTree = "<group>"; };
+		0FB1C1702C4B3FA500C19490 /* QnAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QnAView.swift; sourceTree = "<group>"; };
+		0FB1C1722C4B3FB900C19490 /* MultipleChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceView.swift; sourceTree = "<group>"; };
+		0FB1C1742C4B3FD100C19490 /* ReciteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciteView.swift; sourceTree = "<group>"; };
+		0FB1C1762C4B3FEA00C19490 /* EndCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndCardView.swift; sourceTree = "<group>"; };
+		0FB1C1782C4B403B00C19490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0FB1C1792C4B659F00C19490 /* CardGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGenerator.swift; sourceTree = "<group>"; };
+		0FB1C17C2C4B65EC00C19490 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		0FB1C17E2C4B660E00C19490 /* OverviewChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewChart.swift; sourceTree = "<group>"; };
+		0FB1C1802C4B662000C19490 /* StatDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatDeckView.swift; sourceTree = "<group>"; };
+		0FB1C1822C4B664700C19490 /* StatDeckTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatDeckTileView.swift; sourceTree = "<group>"; };
+		0FB1C1842C4B665D00C19490 /* TimeKeeperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeKeeperView.swift; sourceTree = "<group>"; };
+		0FB1C1862C4B667200C19490 /* CorrectAnswerAVGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectAnswerAVGView.swift; sourceTree = "<group>"; };
+		0FB1C1882C4B66C900C19490 /* CustomGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGauge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +139,12 @@
 		0FB1C1182C4B391200C19490 /* ScixSmartCards */ = {
 			isa = PBXGroup;
 			children = (
+				0FB1C1782C4B403B00C19490 /* Info.plist */,
 				0FB1C1192C4B391200C19490 /* ScixSmartCardsApp.swift */,
-				0FB1C11B2C4B391200C19490 /* ContentView.swift */,
+				0FB1C12E2C4B3A2F00C19490 /* Game */,
+				0FB1C12A2C4B39EA00C19490 /* Main */,
+				0FB1C17B2C4B65D900C19490 /* Stats */,
+				0FB1C1282C4B399F00C19490 /* Data */,
 				0FB1C11D2C4B391400C19490 /* Assets.xcassets */,
 				0FB1C11F2C4B391400C19490 /* ScixSmartCards.entitlements */,
 				0FB1C1202C4B391400C19490 /* Preview Content */,
@@ -67,6 +158,118 @@
 				0FB1C1212C4B391400C19490 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FB1C1282C4B399F00C19490 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0FB1C1322C4B3A7400C19490 /* DeckModel.swift */,
+				0FB1C1302C4B3A5C00C19490 /* CardModel.swift */,
+				0FB1C1342C4B3A9700C19490 /* CardStatisticsModel.swift */,
+				0FB1C1372C4B3AB200C19490 /* DeckStatisticsModel.swift */,
+				0FB1C1392C4B3AD100C19490 /* PlaythroughStatsisticsModel.swift */,
+				0FB1C1792C4B659F00C19490 /* CardGenerator.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0FB1C12A2C4B39EA00C19490 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0FB1C11B2C4B391200C19490 /* ContentView.swift */,
+				0FB1C13C2C4B3B0F00C19490 /* SettingsView.swift */,
+				0FB1C13E2C4B3B3900C19490 /* SideBarView.swift */,
+				0FB1C13B2C4B3AE300C19490 /* Onboarding */,
+				0FB1C12B2C4B39F200C19490 /* Decks */,
+				0FB1C12C2C4B39FF00C19490 /* Cards */,
+				0FB1C12D2C4B3A0500C19490 /* Logic */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0FB1C12B2C4B39F200C19490 /* Decks */ = {
+			isa = PBXGroup;
+			children = (
+				0FB1C1462C4B3BF800C19490 /* DeckView.swift */,
+				0FB1C1482C4B3C0800C19490 /* DeckTileView.swift */,
+				0FB1C14A2C4B3C3D00C19490 /* EditDeckView.swift */,
+				0FB1C14C2C4B3C5000C19490 /* AddDeckView.swift */,
+			);
+			path = Decks;
+			sourceTree = "<group>";
+		};
+		0FB1C12C2C4B39FF00C19490 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				0FB1C14E2C4B3C7D00C19490 /* CardListView.swift */,
+				0FB1C1502C4B3CB800C19490 /* CardCollapsedView.swift */,
+				0FB1C1522C4B3CCA00C19490 /* CardExpandedView.swift */,
+				0FB1C1542C4B3CF200C19490 /* AddCardView.swift */,
+				0FB1C1562C4B3D0000C19490 /* AddAICardView.swift */,
+				0FB1C1582C4B3D5100C19490 /* CardTileView.swift */,
+				0FB1C15A2C4B3D6400C19490 /* EditCardView.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		0FB1C12D2C4B3A0500C19490 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				0FB1C15C2C4B3E4900C19490 /* CalculateDeckStatistics.swift */,
+				0FB1C15E2C4B3E6700C19490 /* CalculateLearnFactor.swift */,
+				0FB1C1602C4B3E8800C19490 /* Export.swift */,
+				0FB1C1622C4B3EA300C19490 /* UTType.swift */,
+				0FB1C1642C4B3EBA00C19490 /* DeckLoading.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		0FB1C12E2C4B3A2F00C19490 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				0FB1C1682C4B3F4D00C19490 /* GameEntryView.swift */,
+				0FB1C16A2C4B3F6700C19490 /* GameView.swift */,
+				0FB1C16C2C4B3F7B00C19490 /* GameDeckTileView.swift */,
+				0FB1C16E2C4B3F9600C19490 /* GameCategoryTileView.swift */,
+				0FB1C1702C4B3FA500C19490 /* QnAView.swift */,
+				0FB1C1722C4B3FB900C19490 /* MultipleChoiceView.swift */,
+				0FB1C1742C4B3FD100C19490 /* ReciteView.swift */,
+				0FB1C1762C4B3FEA00C19490 /* EndCardView.swift */,
+				0FB1C12F2C4B3A3600C19490 /* Logic */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		0FB1C12F2C4B3A3600C19490 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				0FB1C1662C4B3F2B00C19490 /* FlowLayout.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		0FB1C13B2C4B3AE300C19490 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0FB1C1402C4B3B7500C19490 /* OnboardingView.swift */,
+				0FB1C1442C4B3BC500C19490 /* OnboardingDecks.swift */,
+				0FB1C1422C4B3BA300C19490 /* OnboardingWelcome.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		0FB1C17B2C4B65D900C19490 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				0FB1C17C2C4B65EC00C19490 /* StatsView.swift */,
+				0FB1C17E2C4B660E00C19490 /* OverviewChart.swift */,
+				0FB1C1802C4B662000C19490 /* StatDeckView.swift */,
+				0FB1C1822C4B664700C19490 /* StatDeckTileView.swift */,
+				0FB1C1842C4B665D00C19490 /* TimeKeeperView.swift */,
+				0FB1C1862C4B667200C19490 /* CorrectAnswerAVGView.swift */,
+				0FB1C1882C4B66C900C19490 /* CustomGauge.swift */,
+			);
+			path = Stats;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +342,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FB1C1352C4B3A9700C19490 /* CardStatisticsModel.swift in Sources */,
+				0FB1C15F2C4B3E6700C19490 /* CalculateLearnFactor.swift in Sources */,
+				0FB1C13D2C4B3B0F00C19490 /* SettingsView.swift in Sources */,
+				0FB1C1672C4B3F2B00C19490 /* FlowLayout.swift in Sources */,
+				0FB1C1872C4B667200C19490 /* CorrectAnswerAVGView.swift in Sources */,
+				0FB1C15B2C4B3D6400C19490 /* EditCardView.swift in Sources */,
+				0FB1C1382C4B3AB200C19490 /* DeckStatisticsModel.swift in Sources */,
+				0FB1C1572C4B3D0000C19490 /* AddAICardView.swift in Sources */,
+				0FB1C1812C4B662000C19490 /* StatDeckView.swift in Sources */,
+				0FB1C1412C4B3B7500C19490 /* OnboardingView.swift in Sources */,
+				0FB1C13F2C4B3B3900C19490 /* SideBarView.swift in Sources */,
+				0FB1C1772C4B3FEA00C19490 /* EndCardView.swift in Sources */,
+				0FB1C1452C4B3BC500C19490 /* OnboardingDecks.swift in Sources */,
+				0FB1C1632C4B3EA300C19490 /* UTType.swift in Sources */,
+				0FB1C16D2C4B3F7B00C19490 /* GameDeckTileView.swift in Sources */,
+				0FB1C15D2C4B3E4900C19490 /* CalculateDeckStatistics.swift in Sources */,
+				0FB1C1532C4B3CCA00C19490 /* CardExpandedView.swift in Sources */,
 				0FB1C11C2C4B391200C19490 /* ContentView.swift in Sources */,
+				0FB1C1732C4B3FB900C19490 /* MultipleChoiceView.swift in Sources */,
+				0FB1C1712C4B3FA500C19490 /* QnAView.swift in Sources */,
+				0FB1C1652C4B3EBA00C19490 /* DeckLoading.swift in Sources */,
+				0FB1C1752C4B3FD100C19490 /* ReciteView.swift in Sources */,
+				0FB1C14D2C4B3C5000C19490 /* AddDeckView.swift in Sources */,
+				0FB1C1612C4B3E8800C19490 /* Export.swift in Sources */,
+				0FB1C1832C4B664700C19490 /* StatDeckTileView.swift in Sources */,
+				0FB1C1492C4B3C0800C19490 /* DeckTileView.swift in Sources */,
+				0FB1C14B2C4B3C3D00C19490 /* EditDeckView.swift in Sources */,
+				0FB1C1432C4B3BA300C19490 /* OnboardingWelcome.swift in Sources */,
+				0FB1C14F2C4B3C7D00C19490 /* CardListView.swift in Sources */,
 				0FB1C11A2C4B391200C19490 /* ScixSmartCardsApp.swift in Sources */,
+				0FB1C1552C4B3CF200C19490 /* AddCardView.swift in Sources */,
+				0FB1C1592C4B3D5100C19490 /* CardTileView.swift in Sources */,
+				0FB1C13A2C4B3AD100C19490 /* PlaythroughStatsisticsModel.swift in Sources */,
+				0FB1C16F2C4B3F9600C19490 /* GameCategoryTileView.swift in Sources */,
+				0FB1C1332C4B3A7500C19490 /* DeckModel.swift in Sources */,
+				0FB1C1312C4B3A5C00C19490 /* CardModel.swift in Sources */,
+				0FB1C1512C4B3CB800C19490 /* CardCollapsedView.swift in Sources */,
+				0FB1C1852C4B665D00C19490 /* TimeKeeperView.swift in Sources */,
+				0FB1C1472C4B3BF800C19490 /* DeckView.swift in Sources */,
+				0FB1C1892C4B66C900C19490 /* CustomGauge.swift in Sources */,
+				0FB1C17D2C4B65ED00C19490 /* StatsView.swift in Sources */,
+				0FB1C17A2C4B659F00C19490 /* CardGenerator.swift in Sources */,
+				0FB1C16B2C4B3F6700C19490 /* GameView.swift in Sources */,
+				0FB1C1692C4B3F4D00C19490 /* GameEntryView.swift in Sources */,
+				0FB1C17F2C4B660E00C19490 /* OverviewChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +520,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScixSmartCards/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -292,7 +539,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Boste.Scix.ScixSmartCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,6 +560,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScixSmartCards/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -330,7 +579,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Boste.Scix.ScixSmartCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

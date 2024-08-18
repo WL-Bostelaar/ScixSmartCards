@@ -9,10 +9,16 @@ import SwiftUI
 
 struct OnboardingDecks: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            Text("Create")
+                .font(.system(size: 40, weight: .bold))
+                .foregroundColor(Color("Text"))
+                .padding(.horizontal)
+                .frame(maxWidth: .infinity, alignment: .leading)
+            
+            Text("Create")
+            
+        }
+        .padding()
     }
-}
-
-#Preview {
-    OnboardingDecks()
 }
